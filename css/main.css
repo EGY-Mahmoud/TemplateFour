@@ -1,0 +1,1137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+.contianer{
+    width: 100% ;
+    height: 500px;
+}
+
+/* Css navBar */
+.nav{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.logo {
+    width: 30%;
+}
+.logo p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: cursive;
+    margin:10px 240px ;
+}
+.links{
+    width: 40%;
+
+}
+.links ul li{
+    float: right;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+.links ul li a{
+    
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+}
+
+/* Css First View */
+.firstView{
+    width: 100%;
+    position: relative;
+}
+.firstImg img{
+    width: 100%;
+    height: 92vh;
+}
+.firstBox{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 21, 21, 0.644);
+    position: absolute;
+    top: 0;
+}
+.firsttxt{
+    position: absolute;
+    text-align: center;
+    top:70%;
+    left: 22%;
+}
+.firsttxt h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.firsttxt p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* Css Services */
+.services{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+}
+.ser-txt{
+    text-align: center;
+    margin-top: 70px;
+
+}
+.ser-txt p{
+    margin-top: 20px;
+}
+
+/* Css Banner */
+.banner{
+    width: 100%;
+    height: 300px;
+    padding: 50px 10%;
+    background-color: red;
+    
+}
+.box{
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+    text-align: center;
+}
+.icons{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+
+}
+.description{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* Css contact */
+
+.contact{
+    width: 100%;
+}
+.img-contact {
+    float: left;
+}
+.img-contact img{
+    width: 40%;
+   
+
+}
+.txt-contact{
+    width: 50%;
+    float: right;
+    margin-top: -300px;
+    margin-right: 45px;
+}
+.txt-contact p{
+    font-size: 18px; 
+    margin-top: 30px;
+    text-align: left;
+
+}
+.txt-contact h4{
+    font-size: 18px; 
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Css Number */
+.number{
+    width: 100%;
+    height: 130px;
+    background-color: #686565;
+}
+.num {
+    float: left;
+    text-align: center;
+    color: #fff;
+    margin: 20px 98px;
+    padding-left: 10px;
+}
+
+/* Css About */
+
+.about{
+    width: 100%;
+    height: 600px;
+    padding: 30px 10%;
+    background-color: rgb(228, 224, 224);
+}
+.txt-about{
+    text-align: center;
+}
+.txt-about p{
+    margin-top: 40px;
+    line-height: 1px;
+}
+.box2{
+    float: left;
+    width: 20%;
+    margin: 50px 25px;
+    text-align: center;
+}
+.icons2{
+    font-size: 45px;
+    color: rgb(168, 2, 2);
+}
+.title2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+
+}
+.description2{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+.btn1{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border: none;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 5px;
+
+}
+.btn2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 5px;
+
+}
+.button{
+   
+    margin-left: 375px;
+}
+
+/* Css Services 2*/
+.services2{
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    padding: 50px 20%;
+}
+.txt-serv2{
+    text-align: center;
+}
+/* Css view */
+.view{
+    width: 100%;
+    padding: 50px 20%;
+}
+.v-img{
+    width: 33%;
+    margin-bottom: 30px;
+    float: left;
+
+}
+.v-img img{
+    width: 240px;
+
+}
+/* Css Services 3*/
+.services3{
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    padding: 50px 20%;
+}
+.txt-serv3{
+    text-align: center;
+    margin-top: -44px;
+}
+.txt-serv3 p{ 
+    font-size: 20px;
+    font-family: Brush Script MT, Brush Script Std, cursive	;
+}
+.p1{
+    font-size: 20px;
+    text-align: center;
+    
+}
+/* Css Footer */
+.footer{
+    width: 100%;
+    height: 376px;
+    padding: 30px 35%;
+    background-color: #686565;
+}
+.btn-footer label{
+    margin-right: 10px;
+}
+.des1{
+    width: 375px;
+    height: 60px;
+}
+.btn5 {
+    width: 100px;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #e11212;
+}
+
+.copy{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+
+}
+/* responsive with size 1024*/
+@media (max-width:1024px) {
+    .contianer{
+        width: 100%;
+    }
+    .links{
+        width: 55%;
+    }
+    .firstImg img {
+        height: 60vh;
+    }
+    .firsttxt {
+        top: 66%;
+        left: 13%;
+    }
+    .banner {
+        padding: 20px 10%;
+    }
+    .txt-contact h3 {
+        margin-top: 22px;
+    }
+    .txt-contact p {
+        margin-top: -10px;
+    }
+    .num {
+        margin: 20px 60px;
+        
+    }
+    .box2 {
+        margin: 50px 20px;
+    }
+    .button {
+        margin-left: 250px;
+    }
+    .services2{
+
+        padding: 23px 20%;
+    }
+    .services3 {
+        padding: 25px 20%;
+    }
+    .txt-serv3 {
+        margin-top: -4px;
+        line-height: 0;
+    }
+
+    .footer {
+        padding: 26px 31%;
+    }
+
+
+
+
+}
+/* responsive with size 1024*/
+@media (max-width:768px) {
+    .contianer{
+        width: 100%;
+    }
+    .logo p {
+        margin: 10px 100px;
+    }
+    .firsttxt {
+        top: 60%;
+        left: 9px;
+    }
+    .services {
+        width: 100%;
+        margin-top: -60px;
+ 
+    }
+    .banner{
+        height: 500px;
+    }
+    .box {
+       
+        width: 50%;
+        margin-left: 0px;
+        
+    }
+    .txt-contact {
+        width: 53%;
+        margin-top: -245px;
+        margin-right: 35px;
+    }
+    .txt-contact h3 {
+        margin-top: 36px;
+        font-size: 22px;
+    }
+    .txt-contact p {
+        font-size: 16px;
+        line-height: 20.2px
+    }
+    .txt-contact h4 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: -10px;
+    }
+    
+    .num {
+        margin: 20px 30px;
+    }
+    .services {
+        height: 181 px;
+    }
+    .ser-txt {
+        margin-top: 57px;
+    
+    }
+    .ser-txt h2 {
+        font-size: 24px;
+    }
+
+    .txt-about h2{
+        font-size: 24px;
+    }
+    .txt-about p {
+        margin-top: 14px;
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .about {
+        width: 100%;
+        height: 670px ;
+    }
+    .box2 {
+        float: left;
+        width: 22%;
+        margin: 50px 6px;
+    }
+    .button {
+        margin-left: 129px;
+    }
+
+    .view {
+        padding: 50px 1%;
+    }
+    .v-img {
+        width: 33%;
+    }
+    .services3 {
+        height: 280px;
+    }
+    .footer {
+        padding: 26px 25%;
+    }
+
+    .copy {
+        margin-top: 36px;
+    }
+
+
+}
+/* responsive with size 540*/
+@media (max-width:540px) {
+    .contianer{
+        width: 100%;
+    }
+    .logo p {
+        margin: 10px 45px;
+    }
+    .links {
+        width: 70%;
+    }
+    .links ul li a { 
+        font-size: 15px;
+    }
+
+    .firsttxt {
+        top: 40%;
+        left: 28px;
+    }
+    .services {
+        width: 100%;
+        margin-top: 0px;
+        height: 200px;
+    }
+    .firsttxt h3 {
+        font-size: 18px;
+    }
+    .ser-txt h2 {
+        font-size: 19px;
+    }
+    .ser-txt {
+        margin-top: 0px;
+    }
+    .box {
+        width: 33.3%;
+        margin-left: 0px;
+    }
+
+    .icons {
+        font-size: 30px;
+    }
+
+    .banner {
+        height: 325px;
+    }
+    .title h4 {
+        font-size: 20px;
+    }
+    .description {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+
+
+    .txt-contact h3 {
+        margin-top: 36px;
+        font-size: 15px;
+    }
+    .img-contact img {
+        width: 45%;
+    }
+    .txt-contact {
+        width: 52%;
+        margin-top: -186px;
+        margin-right: 6px;
+    }
+    .txt-contact p {
+        font-size: 12px;
+        line-height: 16.2px;
+    }
+
+    .number {
+        height: 85px;
+    
+    }
+    .num {
+        margin: 14px 32px;
+    }
+    .num h1{
+        font-size: 20px;
+    }
+    .num p{
+        font-size: 8px;
+    }
+
+
+
+    .about {
+        width: 100%;
+        height: 610px;
+    }
+    .txt-about h2 {
+        font-size: 17px;
+    }
+    .txt-about p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .icons2 {
+        font-size: 35px;
+    }
+    
+    .box2 {
+        float: left;
+        width: 46%;
+        margin: 17px 7px;
+    }
+    .title2 h4 {
+        font-size: 18px;
+    }
+
+    .description2 p{
+        font-size: 13px;
+    }
+    .button {
+        margin-left: 115px;
+    }
+    .btn1 {
+        padding: 5px 25px;
+        margin: 4px 5px;
+    }
+    .btn2 {
+        padding: 5px 25px;
+        margin: 4px 5px;
+    }
+    .services2 {
+        padding: 23px 10%;
+    }
+    .txt-serv2 h2 {
+        font-size: 19px;
+    }
+    
+    .v-img {
+        width: 33%;
+    }
+    .v-img img {
+        width: 150px;
+        margin: 1px 18px;
+    }
+    .services3 {
+        padding: 25px 8%;
+        height: 235;
+    }
+    .txt-serv3 h2 {
+        font-size: 19px;
+    }
+
+
+    .txt-serv3 {
+        margin-top: 14px;
+    }
+    .p1{
+        font-size: 16px;
+    }
+    .footer {
+        height: 340px;
+        padding: 26px 15%;
+    }
+    .btn5 {
+        margin-left: 120px;
+    }
+    .copy {
+        margin-top: 15px;
+    }
+
+}
+/* responsive with size 414*/
+@media (max-width:414px) {
+    .contianer{
+        width: 100%;
+    }
+    .nav {
+        height: 45px;
+    }
+    .logo p {
+        font-size: 15px;
+        margin: 10px 10px;
+    }
+    .links ul li a {
+        font-size: 12px;
+    }
+    .links ul li {
+        margin: 10px 16px;
+    }
+    .firstImg img {
+        height: 40vh;
+    }
+    .firsttxt {
+        top: 48%;
+        left: 18px;
+    }
+    .firsttxt h3 {
+        font-size: 15px;
+    }
+    .firsttxt p {
+        font-size: 13px;
+    }
+    .services {
+        height: 160px;
+    }
+    .ser-txt p {
+        margin-top: 10px;
+    }
+    .ser-txt h2 {
+        font-size: 15px;
+    }
+    .ser-txt p {
+        margin-top: 6px;
+        font-size: 13px;
+    }
+    .banner {
+        height: 255px;
+    }
+    .icons {
+        font-size: 25px;
+    }
+    .title h4 {
+        font-size: 17px;
+    }
+    .description {
+        font-size: 13px;
+    }
+    .img-contact img {
+        width: 165px;
+        height: 160px;
+    }
+    .txt-contact {
+        width: 53%;
+        margin-top: -30px;
+        margin-right: 6px;
+    }
+    .txt-contact h3 {
+        margin-top: 36px;
+        font-size: 11px;
+    }
+    .txt-contact h4 {
+        font-size: 8px;
+        line-height: 15px;
+        margin-top: -12px;
+    }
+    .txt-contact p {
+        font-size: 10px;
+        line-height: 17.2px;
+    }
+    .num {
+        margin: 13px 16px ;
+    }
+    .about {
+        width: 100%;
+        height: 680px;
+    }
+    .txt-about h2 {
+        font-size: 13px;
+    }
+    .txt-about p {
+        margin-top: 10px ;
+        font-size: 10px;
+    }
+    .box2 {
+        width: 48%;
+        margin: 17px 2px;
+    }
+    .button {
+        margin-left: 82px;
+    }
+    .btn1 {
+        padding: 3px 20px;
+        margin: 4px 5px;
+    }
+    .btn2 {
+        padding: 3px 20px;
+        margin: 4px 5px;
+    }
+
+    .txt-serv2 h2 {
+        font-size: 15px;
+    }
+    .txt-serv2 p{
+        
+        font-size: 13px;
+    }
+    .view {
+        padding: 20px 0%;
+    }
+    .v-img {
+        width: 33%;
+    }
+    .v-img img {
+        width: 130px;
+        margin: 0px 5px;
+    }
+    .services3{
+        height: 215px;
+    }
+    .txt-serv3 p {
+        font-size: 16px;
+    }
+    .txt-serv3 h2 {
+        font-size: 15px;
+    }
+    .p1 {
+        font-size: 13px;
+    }
+    .footer {
+        height: 340px;
+        padding: 26px 4%;
+    }
+
+
+
+}
+/* responsive with size 375*/
+@media (max-width:375px) {
+    .contianer{
+        width: 100%;
+    }
+    .nav {
+        height: 35px;
+    }
+    .logo p {
+        font-size: 13px;
+    }
+    .links ul li a {
+        font-size: 10px;
+    }
+    .links ul li {
+        margin: 5px 16px ;
+    }
+    .firsttxt {
+        top: 48%;
+        left: 5px;
+    }
+    .ser-txt h2 {
+        font-size: 13px;
+    }
+    .ser-txt p {
+        font-size: 11px;
+    }
+    .img-contact img {
+        height: 170px;
+    }
+    .number {
+        height: 75px;
+    }
+    .num {
+        margin: 13px 11px;
+    }
+    .txt-about h2 {
+        font-size: 12px;
+    }
+    .txt-about p {
+        font-size: 9px;
+    }
+    .button {
+        margin-left: 70px;
+    }
+    .btn1 {
+        padding: 2px 20px;
+        margin: 1px 2px;
+    }
+    .btn2 {
+        padding: 2px 20px;
+        margin: 1px 2px;
+    }
+    .v-img {
+        width: 25%;
+        margin: 3px 13px;
+    }
+    .v-img img {
+        width: 110px;
+        margin: 0px 5px;
+    }
+    .txt-serv3 {
+        margin-top: 0px;
+    }
+    .footer {
+        height: 270px;
+        padding: 25px 14%;
+    }
+    .btn-footer label {
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    input[type="text"] {
+        width: 120px ;
+    }
+    input[type="password"] {
+        width: 120px ;
+    }
+    input[placeholder] {
+        font-size: 12px ;
+    }
+    input.des1 {
+        width: 243px;
+    }
+    .btn5 {
+        margin-left: 82px;
+    }
+    .copy {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+
+}
+/* responsive with size 360*/
+@media (max-width:360px) {
+    .contianer{
+        width: 100%;
+    }
+    .logo {
+        width: 25%;
+    }
+    .links {
+        width: 73%;
+    }
+    .firsttxt h3 {
+        font-size: 12px;
+    }
+    .firsttxt p {
+        font-size: 10px;
+    }
+    .firsttxt {
+        top: 50%;
+        left: 33px;
+    }
+    .services {
+        height: 130px;
+    }
+    .ser-txt h2 {
+        font-size: 11px;
+    }
+    .ser-txt p {
+        font-size: 10px;
+    }
+    .banner {
+        height: 195px;
+    }
+    .icons {
+        font-size: 20px;
+    }
+    .title h4 {
+        font-size: 13px;
+    }
+    .description {
+        font-size: 10px;
+        text-align: center;
+    }
+    .txt-contact {
+        width: 50%;
+
+    }
+    .txt-contact h3 {
+        margin-top: 33px;
+        font-size: 10px;
+    }
+    .txt-contact p {
+        font-size: 8px;
+        line-height: 17.2px;
+    }
+    .num {
+        margin: 13px 9px;
+    }
+    .about {
+        width: 100%;
+        height: 550px;
+    }
+    .txt-about h2 {
+        font-size: 11px;
+    }
+    .txt-about p {
+        font-size: 8px;
+    }
+    .icons2 {
+        font-size: 25px;
+    }
+    .title2 h4 {
+        font-size: 12px;
+    }
+    .description2 {
+        margin-top: 11px;
+    }
+    .description2 p {
+        font-size: 10px;
+    }
+    .txt-serv2 h2 {
+        font-size: 12px;
+    }
+    .txt-serv2 p {
+        font-size: 10px;
+    }
+    .services2 {
+        padding: 5px 10%;
+        height: 155px;
+    }
+    .v-img {
+        width: 24%;
+        margin: 3px 13px;
+    }
+    .v-img img {
+        width: 110px;
+        margin: 0px 0px;
+    }
+    .services3 {
+        height: 175px;
+    }
+    .txt-serv3 p {
+        font-size: 13px;
+    }
+    .txt-serv3 h2 {
+        font-size: 13px;
+    }
+    .p1 {
+        font-size: 10px;
+    }
+    
+    .footer {
+        height: 360px;
+    }
+
+
+
+
+}
+/* responsive with size 320*/
+@media (max-width:320px) {
+    .contianer{
+        width: 100%;
+    }
+    .logo p {
+        font-size: 11px;
+    }
+    .links ul li a {
+        font-size: 7px;
+        font-weight: bold;
+    }
+    .firsttxt {
+        top: 49%;
+        left: 22px;
+    }
+    .firsttxt h3 {
+        font-size: 11px;
+    }
+    .firsttxt p {
+        font-size: 9px;
+    }
+    .banner {
+        height: 212px;
+    }
+    .txt-contact {
+        width: 43%;
+    }
+    .txt-contact h3 {
+        font-size: 9px;
+    }
+    .txt-contact p {
+        font-size: 7px;
+        line-height: 15.2px;
+    }
+    .num {
+        margin: 13px 4px;
+    }
+    .about {
+     
+        height: 600px;
+    }
+    .button {
+        margin-left: 60px;
+    }
+    .btn1 {
+        padding: 0px 15px;
+        margin: 1px 2px;
+    }
+    .btn2 {
+        padding: 0px 15px;
+        margin: 1px 2px;
+    }
+
+    .v-img img {
+        width: 92px;
+
+    }
+    .footer {
+        height: 280px;        
+        padding: 25px 11%;
+    }
+
+
+
+
+
+
+}
+/* responsive with size 280*/
+@media (max-width:280px) {
+    .contianer{
+        width: 100%;
+    }
+    .logo p {
+        font-size: 9px;
+    }
+    .logo {
+        width: 22%;
+    }
+    .links ul li {
+        margin: 2px 9px;
+    }
+    .firsttxt {
+        top: 49%;
+        left: 16px;
+    }
+    .firsttxt h3 {
+        font-size: 10px;
+    }
+    .ser-txt h2 {
+        font-size: 10px;
+    }
+    .banner {
+        height: 380px;
+    }
+    .box {
+        width: 101.3%;
+        margin-left: 0px;
+    }
+
+    .txt-contact {
+        width: 38%;
+    }
+    .txt-contact p {
+        font-size: 7px;
+        line-height: 12.2px;
+    }
+    .number {
+        height: 70px;
+    }
+    .num {
+        margin: 13px -1px;
+    }
+    .about {
+        height: 645px;
+    }
+    .txt-about h2 {
+        font-size: 9px;
+    }
+    .box2 {
+        width: 100%;
+        float: none;
+        margin: 17px 2px;
+    }
+   
+    .txt-serv2 h2 {
+        font-size: 11px;
+    }
+    .txt-serv2 p {
+        font-size: 9px;
+    }
+    .v-img img {
+        width: 78px;
+    }
+    .v-img {
+        width: 22%;
+        margin: 3px 13px;
+    }
+    .txt-serv3 p {
+        font-size: 12px;
+    }
+    .txt-serv3 h2 {
+        font-size: 11px;
+    }
+    .p1 {
+        font-size: 9px;
+    }
+    .footer {
+
+        padding: 25px 6%;
+    }
+    
+    
+}
